@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <h1>Examples of How to Add Media</h1>
+        <p>How to add images, audio and video to a web page.</p>
+        <p>This page is an example page. You can copy from it to help you with creating your own pages.</p>
+       
+        <section>
+            <h2>Adding an Image</h2>
+            <p>
+                When you add an image to a web page, most of the time it should be inside of another element. We will use the figure element. Below is an example of a Figure element with a citation using the figcaption element.
+            </p>
+            <p>There is CSS applied to the img element to make it responsive in the style.css</p>
+
+                <figure >
+                    <img src="images/IMG_3226.jpeg" alt="description of the image">
+                    <figcaption>Credits and other caption information. For Example: <a href="https://openlab.bmcc.cuny.edu/members/cstein/">Photo</a> by Chris Stein: </figcaption>
+                </figure>
+
+                <h3>Instructions</h3>
+            <p></p>To add your own audio you will need to:</p>
+            <ul>
+                <li>Upload your image files to the images folder.</li>
+                <li>Copy the figure element above including the img and figcaption elements. Or you can just write them on your own.</li>
+                <li>Change the src attribute in the audio element.</li>
+                <li>To give credit:
+                    <ul>
+                        <li>Change the text in the credit paragraph to fit your audio. If you made it then give yourself credit.</li>
+                    </ul>
+                </li>
+            </ul>
+               
+        </section>
+        <section>
+            <h2>Adding an Audio File</h2>
+            <div class="audio">
+                <audio controls src="media/test.mp3"></audio>
+    
+                <p class="credit">&ldquo;Test&rdquo; by Chris Stein.
+                    Licensed under Creative Commons: <a href="http://creativecommons.org/licenses/by/4.0/">By Attribution 4.0 License</a>
+                </p>
+            </div>
+    
+            <h3>Instructions</h3>
+            <p></p>To add your own audio you will need to:</p>
+            <ul>
+                <li>Upload your audio file to the media folder.</li>
+                <li>Copy the audio element above, or you can just write it on your own.</li>
+                <li>Change the src attribute in the audio element.</li>
+                <li>To give credit:
+                    <ul>
+                        <li>Change the text in the credit paragraph to fit your audio. If you made it then give yourself credit.</li>
+                    </ul>
+                </li>
+            </ul>
+
+        </section>
+        <section>
+            <h2>Adding in a Video File</h2>
+            <figure>
+                <video controls>
+                    
+                    <source src="media/bamboo-short.mp4" type="video/mp4">
+                </video>
+                <figcaption>"Bamboo" by Chris Stein</figcaption>
+            </figure>
+    
+            <h3>Instructions</h3>
+            <p></p>To use this template you will need to:</p>
+            <ul>
+                <li>Upload your video file to the media folder.</li>
+                <li>Change the src attribute in the source element. Also change the type if your video is not mp4</li>
+                <li>Change the figcaption content to fit your video. If you made it then give yourself credit.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Adding in a YouTube Video</h2>
+            <figure>
+                <div class="videoWrapper ratio-16-9">
+                    <!-- iframe below is Copy & Pasted from YouTube replace with your own -->
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/IiJzbXzOdHQ" frameborder="0" allowfullscreen></iframe>
+            
+                </div><!-- end .videoWrapper -->
+                <figcaption>Video by YOUR_NAME</figcaption>
+            </figure>
+            <h3>Instructions</h3>
+            <ul>
+                <li>Copy the entire <b>figure</b> element above (including the div, iframe and figcaption elements inside).</li>
+                <li>Upload your video file to YouTube.</li>
+                <li>On your video's YouTube page:
+                    <ul>
+                        <li>Click the Share button</li>
+                        <li>Click the Embed icon</li>
+                        <li>Copy the iframe element – All of it.</li>
+                    </ul>
+                </li>
+                <li>Delete the iframe that is on this page.</li>
+                <li>Paste in the iframe you copied in the same spot.</li>
+                <li>Change the figcaption content to fit your video. If you made it then give yourself credit.</li>
+                <li>Don't touch the div. The classes on this style the YouTube video so it is responsive.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Content copyright &copy; YOUR_NAME</p>
+    </footer>
+</body>
+</html>
