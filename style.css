@@ -83,7 +83,6 @@ img,video{
     padding-top: 25px;
     height: 0;
     clear:both;
-    outline:1px solid red;
   }
   
   .videoWrapper.ratio-16-9{
